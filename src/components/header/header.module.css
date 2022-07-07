@@ -1,0 +1,35 @@
+.header{
+  text-align: center;
+  width: 50%;
+  margin-bottom: 60px;
+  margin-top: 143px;
+}
+.header h2 {
+font-size: 2.2vw;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.header p {
+  font-weight: 400;
+  font-size: 1.1vw;
+
+}
+.test{
+  font-size: 20px;
+  
+}
+
+@media screen and (max-width:425px ) {
+  .header{
+    width: 80%;
+  }
+}
+
+@media screen and (min-width:1920px) {
+  .header h2 {
+    font-size: 46px;
+  }
+  .header p {
+    font-size: 20px;
+  }
+}
