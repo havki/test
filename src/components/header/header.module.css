@@ -19,10 +19,32 @@ margin-bottom: 20px;
   
 }
 
+@media screen and (max-width:748px) {
+  .header{
+    margin-top: 50px;
+  }
+  .header h2 {
+    font-size: 4.2vw;
+    }
+    .header p {
+      font-weight: 400;
+      font-size: 1.8vw;
+    
+    }
+}
+
 @media screen and (max-width:425px ) {
   .header{
     width: 80%;
   }
+  .header h2 {
+    font-size: 6vw;
+    }
+    .header p {
+      font-weight: 400;
+      font-size: 3.5vw;
+    
+    }
 }
 
 @media screen and (min-width:1920px) {

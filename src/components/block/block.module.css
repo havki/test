@@ -1,9 +1,9 @@
 .blockLeft h3 {
-  font-size: 24px;
+  font-size: 1.3vw;
   margin-bottom: 20px;
 }
 .blockLeft p {
-
+ font-size: 0.8vw;
 }
 .info{
   display: flex;
@@ -14,30 +14,100 @@
 .blockLeft{
   display: flex;
   align-items: center;
-  ;
+  margin-right: 20%;
+  
+}
+.test{
+  font-size: 16px;
   
 }
 .block{
-  background-color: #E7EAEB;
+  background-color: #FCF3FF;
   border-radius: 20px;
   margin-bottom: 1.78%;
   display: flex;
-  padding: 39px 54px 41px 56px;
+  justify-content: space-between;
+  padding: 3.5% 4.8% 3.6% 4.8%;
+  
 }
 .logo{
-  width: 5.7%;
+  width: 13.7%;
 }
 
 
 .doubleButton{
-  min-width: 24%;
+  min-width: 29%;
   background-color: blueviolet;
   height: 50px;
   border-radius: 30px;
-  margin:auto
+  margin:auto;
+  height: 56%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px ;
 }
 
+.doubleButton p{
+  font-size: 0.8vw;
+  color:white;
+}
+
+@media screen and (max-width:748px) {
+  .blockLeft h3 {
+    font-size: 2.3vw;
+   
+  }
+  .blockLeft p {
+   font-size: 1.3vw;
+  }
+  .doubleButton p{
+    font-size: 1.4vw;
+    color:white;
+  }
+}
+@media screen and (max-width:425px) {
+  .block{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 3.5% 4.8% 3.6% 4.8%;
+    
+  }
+  .blockLeft h3 {
+    font-size: 3.3vw;
+   
+  }
+  .blockLeft p {
+   font-size: 2.8vw;
+  }
+  .blockLeft{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  margin-bottom: 20px;
+    
+  }
+  .doubleButton{
+    min-width: 70%;
+    height:10vw;
+   
+  }
+  .doubleButton p{
+    font-size:3vw;
+    color:white;
+  }
+}
 
 @media screen and (min-width:1920px) {
-  
+  .blockLeft h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.blockLeft p {
+  font-size: 16px;
+}
+.block{
+  padding: 39px 54px 41px 56px;
+}
 }
